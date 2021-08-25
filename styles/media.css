@@ -1,0 +1,249 @@
+@media screen and (max-width: 1300px) {
+    .header {
+        background-size: 600px 500px;
+        background-position: 120% 94%;
+    }
+}
+
+@media screen and (max-width: 1165px) {
+    .header__content-title {
+       font-size: 30px;
+    }
+    
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1063px) {
+    .header {
+        background-size: 600px 450px;
+        background-position: 120% 94%;
+        height: 900px;
+    }
+
+    .header__content-title {
+        font-size: 40px;
+    }
+
+    .fake {
+        width: 230px;
+        height: 230px;
+    }
+
+    .benefits__card-title {
+        font-size: 17px;
+    }
+    
+    .benefits__card-sub-title {
+        font-size: 14px;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 813px) {
+    .header {
+        background-image: none;
+    }
+
+    .header__content {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .photos__galery {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .fake {
+        width: 400px;
+        height: 400px;
+    }
+
+    .nav__phone {
+        font-size: 25px;
+    }
+
+    .photos__button {
+        text-align: center;
+        width: 210px;
+        height: 50px;       
+        font-size: 15px;
+        font-weight: 600;
+
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .photos__title {
+        font-size: 30px;
+    }
+
+    .photos__subtitle {
+        font-size: 17px;    
+    }
+    
+    .benefits__title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .benefits__sub-title {
+        font-size: 17px;
+    }
+    
+    .photos__button {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 570px) { 
+
+    .header {
+        height: 520px;
+    }
+
+    .nav__logo {
+        width: 200px;
+        margin-bottom: 7px;
+    }
+
+    .header__content-title {
+        padding-top: 0;
+        margin-top: 10px;
+        font-size: 20px;
+    } 
+    
+    .header__content--sub-title {
+        display: none;
+    }
+
+    .fake {
+        width: 300px;
+        height: 300px;
+    }
+
+    .header__card img{
+        width: 27px;
+        height: 27px;
+    }
+    
+    .header__content--adventures {
+        width: 100%;
+    }
+
+    .header__card-text {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .header__button {
+        width: 220px;
+        height: 50px;
+        font-size: 17px;
+
+    }
+
+    .benefits__cards {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .benefits__card {
+        width: 60%;
+        margin-bottom: 40px;
+    }
+
+    .benefits {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .custumers__content {
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        padding: 20px;
+    }
+
+    .custumers__title {
+        letter-spacing: normal;
+        line-height:35px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    .header {
+        padding-top: 30px;
+    }
+
+    .nav {
+      flex-direction: column;
+    }
+
+    .header__content {
+        padding-top: 10px;
+    }
+
+    .fake {
+        width: 270px;
+        height: 270px;
+    }
+
+    .price__content--title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .price__content--sub-title {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .price__table {
+        width: 100%;
+    }
+
+    .price__column {
+        padding: 0  5px;
+        font-size: 14px;
+    }
+
+    .main__column {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 415px)  {
+    .custumers__title {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .custumers__sub-title {
+        font-size: 16px;
+    }
+
+    .cst__btn {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    .map__title {
+        text-align: center;
+    }
+
+    
+}
